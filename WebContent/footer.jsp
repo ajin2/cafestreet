@@ -2,5 +2,5 @@
     pageEncoding="UTF-8"%>
 <footer>
 	<hr>
-	<p>Copyright ⓒ 개발자 : 박영지 &Corp; All Rights Reserved. </p>
+	<p>Copyright ⓒ 개발자 : 박영지지지롱 &Corp; All Rights Reserved. </p>
 </footer>
