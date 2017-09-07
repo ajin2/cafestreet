@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body{
+	width: 680px;
+	margin: 0px auto;
+}
+header{
+	width: 680px;
+}
+header p{
+	font-size:12px;
+	text-align:right;
+}
+
+section{
+	width: 680px;
+}
+#mainImg{
+	width: 550px;
+	float: left;
+}
+#mainImg img{
+	width: 500px;
+}
+
+#mainMenu{
+	float:rigth;
+}
+#headerImg{
+	width: 680px;
+	float: center;
+}
+#headerImg img{
+	width: 680px;
+}
+footer{
+	clear:both;
+}
+footer p{
+	text-align:center;
+}
