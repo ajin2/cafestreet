@@ -56,7 +56,7 @@ function pwdCheck(){
 </script>
 </head>
 <body>
-<a href = "/cafestreet/member/login.jsp"></a><img src = "/cafestreet/img/mainlogo.jpg" style="width: 680px; height: 150px; margin-left: auto; margin-right: auto; display: block;">
+<a href = "/cafestreet/member/login.jsp"><img src = "/cafestreet/img/mainlogo.jpg" style="width: 680px; height: 150px; margin-left: auto; margin-right: auto; display: block;"></a>
 <section>
    <article>
             <form name = "join" action = "join_ok.jsp" method="post">
@@ -70,7 +70,6 @@ function pwdCheck(){
            <input type = "password" name = "pwd_ok" placeholder="비밀번호 확인" onkeyup="pwdCheck()" > <br>
            <div id="pwdCheck"> </div>                                   
           <lable> <input type = "text" name = "nickname" placeholder="닉네임" > </lable> <br>                      
-           <lable> <input type = "text" name = "addr" placeholder="주소(시/구 까지 입력)" > </lable> <br>
             
      </article> 
            
