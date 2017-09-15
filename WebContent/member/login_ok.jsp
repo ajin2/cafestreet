@@ -42,7 +42,7 @@ if(result==mdao.LOGIN_OK){
 	%>
 	<script>
 	window.alert('고객센터에 연락 바랍니다.');
-	location.href="/cafestreet/member/index.jsp";
+	location.href="/cafestreet/member/login.jsp";
 	</script>
 	<%
 }
