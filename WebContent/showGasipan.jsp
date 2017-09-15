@@ -6,6 +6,11 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel = "stylesheet" type = "text/css" href = "CSS/mainLayout.css">
+<style>
+table td{
+	text-align: center;
+}
+</style>
 </head>
 <body>
 <%@include file ="header.jsp"%>
@@ -14,7 +19,7 @@
 		<img src = "img/seoulmap.png" width = "680px">
 	</article>
 	<article>
-		<table border = "1" cellspacing = "0" align = "center">
+		<table border = "1" cellspacing = "0" align = "center" width = "680px">
 			<tr>
 				<td>
 				<a href = "Gasi.jsp">
@@ -116,9 +121,14 @@
 			</tr>
 		</table>
 	</article>
+	<article align = "right">
+	<form name = "writeform" action = "writeGasipan.jsp">
+	<Br>
+		<input type = "submit" value = "글쓰기">
+	</form>
+	</article>
 	<article align = "center">
 	<form name = "searchform" action = "Gasi.jsp">
-		<br>
 		<select style = "width:100px;">
 			<option>작성자</option>
 			<option>제목</option>
