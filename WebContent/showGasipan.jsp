@@ -38,6 +38,7 @@
 <body>
 <%@include file ="header.jsp"%>
 <section>
+	<form name = showGasipanfm action = "writeGasipan.jsp">
 	<article>
 		<img src = "img/seoulmap.png" width = "680px" >
 	</article>
@@ -45,7 +46,7 @@
 	
 	<div class="container-fluid text-center bg-grey">
 
-  <div class="row text-center" >
+  	<div class="row text-center" >
     <%
       	for(int i=0;i<arr.size();i++){
 	  		String img=arr.get(i).getImg();
@@ -64,12 +65,12 @@
         
       </div>
     </div>
- 
   <% } %>
-  </div>
- 
+  </div> 
  </div>
+		<input type = "submit" value = "글쓰기">
 	</article>
+	</form>
 	<article align = "center">
 	<form name = "searchform" action = "showGasipan.jsp">
 		<br>

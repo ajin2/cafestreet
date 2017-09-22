@@ -4,9 +4,11 @@ import java.net.*;
 import java.sql.*;
 import javax.sql.*;
 public class memberDAO {
+	
 	private Connection conn;
-	private PreparedStatement ps;
+	private PreparedStatement ps;	
 	private ResultSet rs;
+	
 	//로그인 관련 상수 선언
 	public static final int NOT_ID=1;
 	public static final int NOT_PWD=2;
@@ -19,7 +21,7 @@ public class memberDAO {
 
 	         conn = db.DB.getConn();
 	         
-	         String sql = "insert into cafe_member values(cafe_member_idx.nextval,?,?,?,?)";
+	         String sql = "insert into cafe_member values(?,?,?,?)";
 	         ps = conn.prepareStatement(sql);
 	         ps.setString(1, dto.getId());
 	         ps.setString(2, dto.getPwd());
@@ -110,7 +112,7 @@ public class memberDAO {
 		
 	}
 	
-	/**아이디 중복검사 메소드*/
+	/**닉네임 중복검사 메소드*/
 	public boolean nickCheck(String user_nick) {
 		try {
 			conn=db.DB.getConn();

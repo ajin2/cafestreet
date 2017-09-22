@@ -30,7 +30,7 @@ function joinbtn() {
 </script>
 </head>
 <body>
-<a href = "/cafestreet/member/login.jsp"></a><img src = "/cafestreet/img/mainlogo.jpg" style="width: 680px; height: 150px; margin-left: auto; margin-right: auto; display: block;">
+<a href = "/cafestreet/index.jsp"><img src = "/cafestreet/img/mainlogo.jpg" style="width: 680px; height: 150px; margin-left: auto; margin-right: auto; display: block;"></a>
 <section>
    <article id="login">
       <fieldset>
