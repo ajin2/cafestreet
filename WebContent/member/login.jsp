@@ -39,7 +39,7 @@ function joinbtn() {
 	         <table>
 	            <tr>
 	               <td rowspan = "3">
-	               <img src = "img/loginimg.png" style = "width:100px;">
+	               <img src = "/img/loginimg.png" style = "width:100px;">
 	               </td>
 	            </tr>
 	            <tr>
