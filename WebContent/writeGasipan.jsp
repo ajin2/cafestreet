@@ -12,40 +12,7 @@ table th{
 	width: 150px;
 }
 </style>
-<script>
-function sel(){
-	var ci = document.getElementById("selci");
-	var area_ci = ci.options[ci.selectedIndex].text;
-	document.getElementById("hici").value = area_ci
-
-	var gu = document.getElementById("selgu");
-	var area_gu = gu.options[gu.selectedIndex].text;
-	document.getElementById("higu").value = area_gu
-	
-	document.getElementById('writeBBSform').submit();
-}
-function changegu(e){
-	var selgu_S = ["강동구","강북구","강서구","관악구","광진구","구로구","금천구","노원구","도봉구",
-		"동대문구","동작구","마포구","서대문구","서초구","성동구","성북구","송파구","양천구","영등포구",
-		"용산구","은평구","종로구","중구","중랑구"];
-	var selgu_GG = ["가평군","고양시","과천시","광명시","광주시","구리시","군포시","김포시","남양주시",
-		"동두천시","부천시","성남시","수원시","시흥시","안산시","안성시","안양시","양주시",""];
-	var selgu_IN = ["인","천","광","역","시"];
-	var target = document.getElementById("selgu");
-	
-	if(e.value == "S") var d = selgu_S;
-	else if(e.value == "GG") var d = selgu_GG;
-	else if(e.value == "IN") var d = selgu_IN;
-	
-	target.options.length = 0;
-	
-	for(x in d) {
-		var opt = document.createElement("option");
-		opt.value = d[x];
-		opt.innerHTML = d[x];
-		target.appendChild(opt);
-	}
-}
+<script src = "selfunc.js">
 </script>
 </head>
 <body>
@@ -72,6 +39,7 @@ function changegu(e){
 						<option value = "JB">전라북도</option>
 						<option value = "GN">경상남도</option>
 						<option value = "GB">경상북도</option>
+						<option value = "BS">부산광역시</option>
 						<option value = "JJ">제주도</option>
 					</select>
 					<input type = "hidden" id = "hici" name = "hici">

@@ -11,7 +11,7 @@ String sid=(String)session.getAttribute("sid");
 		<%
 	}else{
 		%>
-		<p><%=sid %>님  | <a href = "logout.jsp">로그아웃</a></p>
+		<p><%=sid %>님  | <a href = "/cafestreet/member/logout.jsp">로그아웃</a></p>
 		<%
 	}
 	%>

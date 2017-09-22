@@ -56,7 +56,8 @@ function pwdCheck(){
 </script>
 </head>
 <body>
-<a href = "/cafestreet/member/login.jsp"><img src = "/cafestreet/img/mainlogo.jpg" style="width: 680px; height: 150px; margin-left: auto; margin-right: auto; display: block;"></a>
+<a href = "/cafestreet/index.jsp"><img src = "/cafestreet/img/mainlogo.jpg" style="width: 680px; height: 150px; margin-left: auto; margin-right: auto; display: block;"></a>
+
 <section>
    <article>
             <form name = "join" action = "join_ok.jsp" method="post">
